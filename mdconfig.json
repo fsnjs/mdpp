@@ -1,0 +1,7 @@
+{
+    "output": "./README.md",
+    "root": "./docs/index.md",
+    "include": [
+        "docs/**/*.md"
+    ]
+}
