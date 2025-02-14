@@ -2,7 +2,7 @@ import ora, { Ora } from 'ora';
 import { DocumentParser } from './parse-document.js';
 import { dirname, join } from 'path';
 import { glob } from 'glob';
-import { readFile } from '@fsnjs/fs';
+import { readFile } from '@fsnjs/node/fs';
 import { watch as watcher } from 'chokidar';
 import { writeFileSync } from 'fs';
 import { ProjectConfig } from './bin.js';

@@ -1,0 +1,6 @@
+{
+    "$schema": "../tsnode/src/schema/fsn-package.schema.json",
+    "lib": {
+        "entryFile": "bin.ts"
+    }
+}

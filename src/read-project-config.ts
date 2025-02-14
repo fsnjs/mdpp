@@ -1,4 +1,4 @@
-import { findBack } from '@fsnjs/fs';
+import { findBack } from '@fsnjs/node/path';
 
 export function findProjectConfig(
     filename: string = 'mdconfig.json',

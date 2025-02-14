@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 import chalk from 'chalk';
 import { existsSync, readFileSync } from 'fs';
 import { resolve } from 'path';

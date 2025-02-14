@@ -1,6 +1,6 @@
 # Directives
 
-| Name       | Descr iption                                   | Details           |
+| Name       | Description                                    | Details           |
 | ---------- | ---------------------------------------------- | ----------------- |
 | `@include` | Embed child documents into the parent document | @link `@include`; |
 | `@link`    | Create a link to child documents               | @link `@link`;    |

@@ -1,7 +1,7 @@
 import { StringTokenizer } from '@fsnjs/tokenize';
 import { DocDirective, isDocDirective } from './directive.js';
 import { DocDirectiveToken, Token, TokenType } from './token.js';
-import { readFile } from '@fsnjs/fs';
+import { readFile } from '@fsnjs/node/fs/index.js';
 
 export class DocumentTokenizer extends StringTokenizer<Token> {
     constructor(
